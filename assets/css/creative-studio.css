@@ -205,6 +205,9 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  display: block;
+  width: 100%;  /* 讓圖片適應容器 */
+  height: auto; /* 保持圖片原比例 */
 }
 
 svg {
